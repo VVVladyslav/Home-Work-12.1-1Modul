@@ -16,7 +16,6 @@ public class Main {
         });
         oneSec.start();
 
-
         Thread fiveSec = new Thread(() -> {
             for (int i = 5; i < maxValue; i = i + 5) {
                 try {
@@ -28,7 +27,5 @@ public class Main {
             }
         });
         fiveSec.start();
-
-
     }
 }
